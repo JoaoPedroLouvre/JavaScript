@@ -4,7 +4,6 @@ const media = (...numbers) => {
     const sum = numbers.reduce((numerosIterados1, numerosIterados2) => numerosIterados1 + numerosIterados2, 0)
     return sum / numbers.length
 }
-
 console.log(`Média aritimética simples: ${media(3,6,10,9)}`)
 
 // Calculando a média aritimética ponderada
