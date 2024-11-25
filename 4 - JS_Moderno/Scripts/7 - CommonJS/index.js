@@ -1,10 +1,11 @@
 // Importando os módulos JS
+const {store, soma} = require('./store')
 const variavelRender = require('./render')
-const variavelStore = require('./store')
+//const variavelStore = store
 
 console.log('Aplicação iniciada')
 variavelRender()
-variavelStore()
+store()
 console.log('Aplicação finalizada.')
 
 // Infelizmente não funciona no navegador
